@@ -1,8 +1,4 @@
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -14,17 +10,6 @@ public class Main {
         System.out.println("Доля запросов GoogleBot: " + LogParser.getGoogleBotPart());
         System.out.println("Доля запросов YandexBot: " + LogParser.getYandexBotPart());
 
-//        System.out.println("Укажите путь к файлу: ");
-//        String path = new Scanner(System.in).nextLine();
-//        File file = new File(path);
-//        FileReader fileReader = new FileReader(path);
-//        BufferedReader reader = new BufferedReader(fileReader);
-//        String line = reader.readLine();
-//        while ((line = reader.readLine()) != null) {
-//
-//            LogEntry logParser = new LogEntry(line);
-//            System.out.println(logParser.requestPath);
-//        }
     }
 
 
